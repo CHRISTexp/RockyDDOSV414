@@ -242,7 +242,6 @@ def x():
     th.start()
     th = threading.Thread(target = xxx)
     th.start()
-else:
     th = threading.Thread(target = xx)
     th.start()
     th = threading.Thread(target = x)
